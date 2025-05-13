@@ -1,0 +1,50 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+.env/
+.venv/
+
+# IDE specific files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Data files
+*.csv
+*.h5
+*.xml
+*.npy
+*.pkl
+*.joblib
+data/raw_songs/  # Ignore raw audio if added later
+
+# Logs and databases
+*.log
+*.sqlite
+*.db
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Python packaging
+build/
+dist/
+*.egg-info/
+*.egg
+
+# Jupyter notebooks
+*.ipynb_checkpoints/
+
+# Streamlit cache
+.streamlit/
+
+# Exceptions (keep these)
+!data/muse_v3.csv       # Keep your dataset
+!models/model.h5        # Keep pretrained model
+!core/emotion_detection/haarcascade_frontalface_default.xml  # Keep Haar cascade
