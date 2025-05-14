@@ -8,7 +8,7 @@ A web application that detects emotions from facial expressions and recommends m
 - Music recommendations based on detected emotions
 - Direct links to Spotify and YouTube for recommended songs
 - Modern and user-friendly interface
-- Support for multiple emotions and weighted recommendations
+- Support for multiple emotions and weighted recommendations.
 
 ## Project Structure
 
