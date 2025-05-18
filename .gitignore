@@ -1,5 +1,5 @@
 # Byte-compiled / optimized / DLL files
-__pycache__/
+# __pycache__/
 *.py[cod]
 *$py.class
 
@@ -27,6 +27,7 @@ data/raw_songs/  # Ignore raw audio if added later
 *.log
 *.sqlite
 *.db
+*.env
 
 # OS generated files
 .DS_Store
@@ -44,7 +45,3 @@ dist/
 # Streamlit cache
 .streamlit/
 
-# Exceptions (keep these)
-!data/muse_v3.csv       # Keep your dataset
-!models/model.h5        # Keep pretrained model
-!core/emotion_detection/haarcascade_frontalface_default.xml  # Keep Haar cascade
