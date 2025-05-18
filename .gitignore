@@ -13,12 +13,7 @@ venv/
 *.swp
 *.swo
 
-# Data files
-*.xml
-*.npy
-*.pkl
-*.joblib
-data/raw_songs/  # Ignore raw audio if added later
+
 
 # Logs and databases
 *.log
