@@ -14,8 +14,6 @@ venv/
 *.swo
 
 # Data files
-*.csv
-*.h5
 *.xml
 *.npy
 *.pkl
